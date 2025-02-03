@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>P Ramesh - 22BCE11020</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #0062ff;
+            color: white;
+            border-radius: 10px;
+        }
+
+        .first-paragraph {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        .second-paragraph {
+            font-family: 'Verdana', sans-serif;
+            line-height: 1.8;
+            text-align: right;
+        }
+
+        .styled-button {
+            padding: 10px 20px;
+            background-color: #0062ff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .styled-button:hover {
+            background-color: #0062ff;
+            transform: scale(1.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: white;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #0062ff;
+            color: white;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        .form-container {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type="text"] {
+            padding: 8px;
+            margin: 5px 0;
+            width: 100%;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            transition: border-color 0.3s;
+        }
+
+        input[type="text"]:hover, input[type="text"]:focus {
+            border-color: #0062ff;
+            outline: none;
+        }
+
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        figcaption {
+            margin-top: 10px;
+            font-style: italic;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Webpage</h1>
+        <p>Student: P Ramesh | Reg No: 22BCE11020 | VIT Bhopal</p>
+    </header>
+
+    <main>
+        <p class="first-paragraph">
+            Welcome to my webpage! This is the first paragraph with a unique styling using Georgia font. 
+            The text is justified and has a specific line height to enhance readability.
+        </p>
+
+        <p class="second-paragraph">
+            This is the second paragraph with different styling using Verdana font. 
+            Notice how this paragraph is right-aligned and has a different line height compared to the first one.
+        </p>
+
+        <figure class="image-container">
+            <img src="/Users/pramesh/Desktop/MERN Stack Development Project Files/Assignment 03.02.2025/VITB-Background.jpeg" alt="Sample Image">
+            <figcaption>Sample Image Caption</figcaption>
+        </figure>
+
+        <button class="styled-button">Click Me!</button>
+
+        <table>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+            </tr>
+            <tr>
+                <td>Row 1, Column 1</td>
+                <td>Row 1, Column 2</td>
+                <td>Row 1, Column 3</td>
+            </tr>
+            <tr>
+                <td>Row 2, Column 1</td>
+                <td>Row 2, Column 2</td>
+                <td>Row 2, Column 3</td>
+            </tr>
+        </table>
+
+        <div class="form-container">
+            <form>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+                <button type="submit" class="styled-button">Submit</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
